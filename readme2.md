@@ -23,12 +23,12 @@ All the following commands are executed from a git bash shell. If not specified 
 - Run Backend (inside venv)
     - (inside examples/knowledgebasebot) `python convert_rasa.py`
     - (inside soloist) `scripts/train_kbbot.sh`
-    - (inside examples/knowledgebasebot) `python kbbot_server`
+    - (inside examples/knowledgebasebot) `python kbbot_server.py`
 - Run Frontend
     - Open a second shell (do not activate the venv)
     - go inside soloist/html
     - `npm install`
-    - `npm run dev`
+    - `npm run serve`
 
 # Did not work?
 - If you can't activate the environment try setting the ExecutionPolicy to Unrestricted (only works from an admin shell)
