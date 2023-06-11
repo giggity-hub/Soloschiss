@@ -121,6 +121,14 @@ def generate_for_queue(in_queue, out_queue):
 
 if __name__ == "__main__":
 
+    # Append the root directory to path so that the soloist folder can be accessed
+    import sys
+    sys.path.insert(0, '../..')
+
+    # Add the nltk_data dir to the path
+    import nltk
+    nltk.data.path.append('../../nltk_data')
+    
     from soloist.server import *
     args.model_name_or_path = 'knowledgebase_model'
     main()

@@ -37,7 +37,7 @@ class NLUInstance:
         return self.text + '\t' + ' ; '.join(self.state)
 
 with open('rasa_nlu.yml') as f:
-    nlu_data = yaml.load(f)
+    nlu_data = yaml.safe_load(f)
 
 for nlu in nlu_data['nlu']:
     exmaples = nlu['examples'].split('\n')
