@@ -142,3 +142,16 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Multiwoz Data
+examples/multiwoz/test.idx.json
+examples/multiwoz/test.soloist.json
+examples/multiwoz/train.idx.json
+examples/multiwoz/train.soloist.json
+examples/multiwoz/valid.idx.json
+examples/multiwoz/valid.soloist.json
+
+examples/multiwoz/data
+examples/multiwoz/multi-woz
+examples/multiwoz/MultiWOZ_2.0.zip@raw=true.1
+examples/multiwoz/__MACOSX/MULTIWOZ2 2/._.DS_Store
